@@ -1,0 +1,226 @@
+{"intents": [
+{"tag": "greeting",
+"patterns": ["Hi there","hai","hi", "How are you", "Is anyone there?","Hey","Hola",
+"Hello", "Good day"],
+"responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I
+help?"],
+"context": [""]
+},
+{"tag": "goodbye",
+"patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next
+time"],
+"responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+"context": [""]
+},
+{"tag": "thanks",
+"patterns": ["Thanks", "ok","okay","k","kk","kkk","Thank you", "That's helpful",
+"Awesome, thanks", "Thanks for helping me"],
+"responses": ["Happy to help!", "Any time!", "My pleasure"],
+"context": [""]
+},
+{"tag": "noanswer",
+"patterns": ["/","?","",".","*","_","1",""],
+"responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I
+understand"],
+"context": [""]
+},
+{"tag": "options",
+"patterns": ["How you could help me?", "What you can do?", "What help you
+provide?", "How you can be helpful?", "What support is offered"],
+"responses": ["I can guide you through courses, Admissions, Contact details", "Offering
+support for courses, Admissions, contacts"],
+"context": [""]
+},
+{"tag": "B Pharma",
+"patterns": ["b Pharmacy", "b Pharmacy admissions","b Pharma","b Pharma
+admissions","pharmacy"],
+"responses": ["<b><h4>B Pharma</h4></b> <br> The course of study for B. Pharm
+shall extend over a period of eight semesters (four academic years) and six semesters (three
+academic years) for lateral entry students.<br><a target='_blank'
+href='https://klepharmblr.org/admissions/b_pharm'><b>About B Pharma</b></a><br><a
+target='_blank 'href='https://klesnc.edu.in/index.php/enquiry/'><b>Apply Online</b></a>
+<br><b>Contact:</b>+91 9513217744"],
+"context": [""]
+},
+{"tag": "Programs",
+"patterns": ["list the courses?","programs ","what are the courses offered", "courses
+offered", "courses available"],
+"responses": ["We offer<br><br><b>16 UG Programs</b></b> in<br> Arts (HEP,
+JPE,JPP) <br>Science (PCM, CBZ, PME, MECs, PMCs, CBBT, CZBT) <br>B.Com
+(Regular) <br>B.Com (Tourism) <br>Hotel Management (BHM) <br>Business
+Administration (BBA)<br> BBA (Aviation) <br>Computer Application (BCA) <br>Fashion
+and Apparel Design (FAD) <br><br><br><b>7 PG programs</b> in<br> Commerce
+(M.Com) <br>M.Sc.(Physics) <br>M.Sc.(Chemistry) <br>M.Sc.(Mathematics)
+<br>MCA(Computer Application) <br>MTA (Tourism Administration) <br>5 year
+integrated course in Tourism Administration."],
+"context": [""]
+},
+{"tag": "Languages",
+"patterns": ["list of laguages offered", "list of laguages would be taught", "laguages
+offered", "laguages taught", "languages available" ],
+"responses": ["1.kannada <br>2.Hindi<br> 3.sanskrit"],
+"context": [""]
+},
+{"tag": "BCA",
+"patterns": ["BCA", "BCA admissions","Bachelor of Computer Applications"],
+"responses": ["<b><h4>BCA</h4></b> <br> BCA at KLESNC, one of the top BCA
+courses in Bengaluru, was established in the year 2000 with a vision to nurture IT
+professionals who are a perfect blend of technological skills and human values. <br><a
+target='_blank' href='https://bca.klesnc.edu.in/'><b>About BCA</b></a><br><a
+target='_blank' href='https://klesnc.edu.in/index.php/enquiry/'><b>Apply Online</b></a>
+<br><b>Contact:</b>+91 9513217755"],
+"context": [""]
+},
+{"tag": "BHM",
+"patterns": ["bhm", "bhm admissions","Hotel Management"],
+"responses": ["<b><h4>BHM</h4></b> <br> The BHM course also hosts external
+trips to outdoor locations especially within the country for students to gain first-hand
+experience in the ways and workings of the hotel industry. A hotel management degree has
+huge scope in the service industry. Job prospects for any student holding such a degree are
+tremendous.<br><a target='_blank' href='https://bhm.klesnc.edu.in/bhm/'><b>About
+BHM</b></a><br><a target='_blank'
+href='https://klesnc.edu.in/index.php/enquiry/'><b>Apply Online</b></a>
+<br><b>Contact:</b>+91 9513217755"],
+"context": [""]
+},
+{"tag": "Extra curricular activities",
+"patterns": ["activities", "Extra curricular activities", "how about cultural activity",
+" cultural activity", "Sports" ],
+"responses": ["Please provide Patient ID", "Patient ID?"],
+"context": ["search_blood_pressure_by_patient_id"]
+},
+{"tag": "Admissions",
+"patterns": ["Admissions"],
+"responses": ["<a href='https://klesnc.edu.in/index.php/enquiry/'><b>Apply
+now</b></a>"],
+"context": [""]
+},
+{"tag": "Facilities",
+"patterns": ["facilities","facility","College bus", "transportation", "transportation
+facility", "are college bus available", "certificates?","" ,"Library?"],
+"responses": ["Please provide pharmacy name"],
+"context": ["search_pharmacy_by_name"]
+},
+{"tag": "certificates",
+"patterns": ["certificates","what are the certificate courses offered","what are the
+certificate courses available","certificates courses","which certificate courses would
+students learn","learn", "student learns","certificate courses provided"],
+"responses": ["RPA Cisco Google UI-path Cyber-security Learnathon"],
+"context": [""]
+},
+{"tag": "Contacts",
+"patterns": ["can i get the contact details", "Contact details", "Placement
+contact","Number please","How can i Contact",
+"contact","phone","number","details","call","call me","call back","request call back"],
+"responses": ["<b>General Enquiry</b><br>Call us on: 080 23526055 / 23325020
+or Email us at: info@klesnc.org<br><b>Placement</b>:+91
+900011190<br><b>Admission:</b>080 22331190<br><b>Library:</b>+91
+9922567821<br><b>Transportation:</b>+91 7856095490"],
+"context": [""]
+},
+{"tag": "Chairmans Message",
+"patterns": ["Chairman","chairmans message","Chairmans-Message"],
+"responses": ["<b><h4>Chairmans Message</h4></b> <br> As the KLE Society
+stands on the threshold of a century of service, I look back with joy at the extent of all
+that has been achieved. I am humbled too, for I am the torch-bearer of an illustrious
+tradition of knowledge dissemination that has made a positive difference to the lives of
+countless thousands. <br><a target='_blank'
+href='https://klesnc.edu.in/index.php/chairmans-message/'><b>To Know more Click
+here</b></a><br>"],
+"context": [""]
+},
+{"tag": "About KLE",
+"patterns": ["about kle","kle","tell about the college","tell me about kle","say about
+kle"],
+"responses": ["Established in the year 1963, KLE'S S. Nijalingappa College is one
+of the 250 institutions under KLE Society whose founding date goes back to 1916. Our campus is located in the heart of Bangalore, and sprawls across 5 acres with easy
+connectivity. Over the years, there has been dynamic progress in all academic and
+research activities and a commensurate up-gradation of facilities and infrastructure, to
+keep on par with the best institutions in the country.To know more <a target='_blank'
+href='https://klesnc.edu.in/'>click here<a/>"],
+"context": ["search_hospital_by_typ"]
+},
+{"tag": "BBA",
+"patterns": ["bba", "bba admissions"," Business Administration","Bachelor of
+Business Administration"],
+"responses": ["<b><h4>BBA</h4></b> <br> BBA (Bachelor of Business
+Administration) is a three-year undergraduate course that prepares students to live up to
+the zenith of management education and develop their entrepreneurial skills.<br><a
+target='_blank' href='https://bba.klesnc.edu.in/'><b>About BBA</b></a><br><a
+target='_blank' href='https://klesnc.edu.in/index.php/enquiry/'><b>Admission</b></a>
+<br><b>Contact:</b>+91 9513217788"],
+"context": [""]
+},
+{"tag": "BCom Tourism",
+"patterns": ["bcom(tourism)","tourism","BCom Tourism","b.com"],
+"responses": ["<b><h4> BCOM(Torism) </h4></b> <br> The department focuses
+on practical experience along with classroom instruction, with students engaged in
+annual study tours, internships, club activities, and industry workshops. <br><atarget='_blank' href='https://ttm.klesnc.edu.in/'><b>About BCOM
+Tourism</b></a><br><a target='_blank' href='https://ttm.klesnc.edu.in/applyonline/'><b>Admission</b></a> <br><b>Contact:</b>+91 9108992920"],
+"context": [""]
+},
+{"tag": "arts",
+"patterns": ["arts", "arts admissions","HEP"," JPE","JPP"],
+"responses": ["<b><h4>Arts</h4></b> <br> arts is undergraduate course that
+prepares students to live up to the zenith of management education and develop their
+entrepreneurial skills.<br><a target='_blank' href='https://bba.klesnc.edu.in/'><b>About
+arts</b></a><br><a target='_blank'
+href='https://klesnc.edu.in/index.php/enquiry/'><b>Apply online</b></a>
+<br><b>Contact:</b>+91 9513217788"],
+"context": [""]
+},
+{"tag": "science",
+"patterns": ["science", "PCM", "CBZ", "PME", "MECs", "PMCs", "CBBT",
+"CZBT","sciene"],
+"responses": ["<b><h4>Science</h4></b> <br> science is undergraduate course
+that prepares students to live up to the zenith of management education and develop their
+entrepreneurial skills.<br><a target='_blank' href='https://bba.klesnc.edu.in/'><b>About
+Science</b></a><br><a target='_blank href='https://klesnc.edu.in/index.php/enquiry/'><b>Apply online</b></a>
+<br><b>Contact:</b>+91 9513217788"],
+"context": [""]
+},
+{"tag":"mcom",
+"patterns":["mcom","Mcom","mcom","m.com"],
+"responses": ["<b><h4> MCOM </h4></b> <br> This program serves the skilled
+manpower needs in the fields of Accounting, Auditing, Taxation, Banking & Finance,
+Stock & Commodity Markets, Corporate Administration, Business Analysis and
+Portfolio Management.<br><a target='_blank'
+href='https://ttm.klesnc.edu.in/'><b>About MCOM Tourism</b></a><br><a
+target='_blank' href='https://ttm.klesnc.edu.in/apply-online/'><b>Admission</b></a>
+<br><b>Contact:</b>+91 9108992920"],
+"context":[""]
+},
+{"tag":"bcom",
+"patterns":["bcom","Bcom","bcom","b.com"],
+"responses": ["<b><h4> BCOM </h4></b> <br> This program serves the skilled
+manpower needs in the fields of Accounting, Auditing, Taxation, Banking & Finance,
+Stock & Commodity Markets, Corporate Administration, Business Analysis and
+Portfolio Management.<br><a target='_blank'
+href='https://ttm.klesnc.edu.in/'><b>About BCOM </b></a><br><a target='_blank'href='https://ttm.klesnc.edu.in/apply-online/'><b>Apply online</b></a>
+<br><b>Contact:</b>+91 9108992920"],
+"context":[""]
+},
+{"tag": "facilities",
+"patterns": ["facility","facilities","provided facility","provided
+facilities","providing
+facility","sports","scholarship","transportation","Library","library"],
+"responses": ["<b><h4>Facilities</h4><b><br><br><b>Various Facility we
+offers are <b><br><h4><br><a target='_blank'
+href='http://klesncbengalurulibinfo.in/'><b>Library</b></a><br><a target='_blank'
+href='http://klesncbengalurulibinfo.in/'><b>Transportation</b></a><br><a
+target='_blank' href='https://klesnc.edu.in/index.php/sportscomplex/'><b>Sports</b></a><br><a target='_blank'
+href='http://klesncbengalurulibinfo.in/'><b>Scholarship</b></a>"],
+"context": [""]
+},
+{"tag": "Location",
+"patterns": ["Where's the college is located at","college location","College
+Address","where's the college located in bangalore","map","road map","address"],
+"responses": ["<b><h4>Our Location</h4><b><br><br><b>KLE Society's S
+Nijalingappa College<b><br><h4>2nd Block, 28th Cross Road, 2nd Block, Rajajinagar,
+Bengaluru, Karnataka 560010 </h4><br> you can also reach out us through Google
+Map<br><a target='_blank 'href='https://goo.gl/maps/wyTstXWDNy4KBVPY8'><b>To view in
+Maps</b></a><br>"],
+"context": [""]
+}
+]
+}
